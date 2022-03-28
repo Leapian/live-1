@@ -66,7 +66,7 @@ def fetchTasksFromServer(apiEndpoint, taskModel):
 
 def main():
     userInput = ""
-    apiEndpoint = "https://d418-81-107-44-137.ngrok.io/tasks"
+    apiEndpoint = "https://9cae-81-107-44-137.ngrok.io/tasks"
     taskModel = TasksModel()
     # @TODO fetch tasks using
     fetchTasksFromServer(apiEndpoint, taskModel)
